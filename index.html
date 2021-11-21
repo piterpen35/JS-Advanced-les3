@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="calc_border"></div>
+        <form class="calc_screen" name="form">
+            <input type="text" class="calc_input calc_input_previous" name="previous" autocomplete="off" disabled>
+            <input type="text" class="calc_input calc_input_current" name="current" autocomplete="off">
+            <div class="calc_buttons">
+                <button type="button" class="calc_button calc_button_light calc_button_big" name="clear">AC</button>
+                <button type="button" class="calc_button calc_button_light" name="delete">DEL</button>
+                <button type="button" class="calc_button calc_button_yellow" name="operator">/</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">1</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">2</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">3</button>
+                <button type="button" class="calc_button calc_button_yellow" name="operator">*</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">4</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">5</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">6</button>
+                <button type="button" class="calc_button calc_button_yellow" name="operator">-</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">7</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">8</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">9</button>
+                <button type="button" class="calc_button calc_button_yellow" name="operator">+</button>
+                <button type="button" class="calc_button calc_button_dark calc_button_big" name="number">0</button>
+                <button type="button" class="calc_button calc_button_dark" name="number">.</button>
+                <button type="button" class="calc_button calc_button_yellow" name="operator">=</button>
+            </div>
+        </form>
+    </div>
+    <script src="./calculator.js"></script>
+    <script src="./smart_calculator.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
